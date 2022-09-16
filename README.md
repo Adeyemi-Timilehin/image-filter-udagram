@@ -26,10 +26,13 @@ We've included a few helper functions to handle some of these concepts and we're
 ```typescript
 import {filterImageFromURL, deleteLocalFiles} from './util/util';
 ```
-
+### endpoint test from postman
+http://localhost:8082/filteredimage?image_url=https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/1730F/production/_126619949_kyrgios.jpg
 ### Deploying your system
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
+
+http://udagram-dev22.us-west-2.elasticbeanstalk.com/filteredimage?image_url=https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/1730F/production/_126619949_kyrgios.jpg
 
 ## Stand Out (Optional)
 
